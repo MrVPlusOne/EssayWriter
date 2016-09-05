@@ -1,0 +1,158 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    color: #777;
+}
+
+
+.icon-middle{
+    width: 90px;
+    min-width: 90px;
+    height: 90px;
+    min-height: 90px;
+    margin: 15px;
+}
+
+.icon-small{
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    margin: 6px;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+.middle-size-tab{
+    width: 800px;
+    height: 600px;
+    overflow-y: auto;
+    padding: 30px;
+}
+
+.indent50{
+    margin-left: 50px;
+}
+
+
+.full-height{
+    height: 100vh;
+}
+
+.menu-button{
+    background: #191818;
+    color: white;
+    padding: 5px 10px;
+}
+
+.side-menu{
+    background: #191818;
+    height: 100vh;
+    overflow-y: auto;
+    width: 10em;
+    min-width: 10em;
+    max-width: 10em;
+}
+
+.side-menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu-item{
+    color: #c2c2c2;
+    padding: 10px;
+}
+
+.side-menu-item:hover{
+    background: #464545;
+}
+
+.side-menu-item-selected{
+    background: #1f8dd6;
+    color: white;
+}
+
+.side-menu-heading{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px 20px;
+    border-bottom: solid gray 1px;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.content-right{
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+#root{
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.header {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    padding: 2.5em 2em 0;
+    border-bottom: 1px solid #eee;
+}
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
+    font-weight: 300;
+}
+.header h2 {
+    font-weight: 300;
+    color: #ccc;
+    padding: 0;
+    margin-top: 0;
+}
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+
+.clickable-text{
+    cursor: pointer;
+    color: #179377;
+}
+
+a{
+    color: #4078c0;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#writing-area {
+    width: 90%;
+    max-width: 800px;
+    height: 500px;
+    max-height: 80vh;
+    color: black;
+}
